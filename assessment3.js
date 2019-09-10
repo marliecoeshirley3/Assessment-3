@@ -1,4 +1,42 @@
-var num1
+var num1 = 10
+var num2 = 18
+var sum = num1 + num2
+
+var firstName;
+firstName = "Marlie"
+console.log(firstName);
+var lastName;
+lastName ="Shirley"
+console.log(lastName);
+
+var hello = "Hello, my name is";
+var fullName = firstName + " " + lastName;
+var helloAndName = hello + fullName;
+console.log(helloAndName);
+
+var ssn = "123-45-6789";
+var lastFourDigits = ssn.slice(7);
+
+var suits["Hearts" "Clubs" "Spades" "Diamonds"];
+console.log(suits[2]);
+
+var bool = true;
+if(bool == true) {
+    console.log("The boolean is true");
+}
+
+var speed = 80;
+var seenByCop = true;
+if(speed >80 && seenByCop == true){
+    console.log("You got cought!");
+} else if(speed <80 && seenByCop == false) {
+
+    console.log("You're safe...for now");
+}
+
+
+
+
 
 
 
